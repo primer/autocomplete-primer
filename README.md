@@ -20,7 +20,7 @@ $ apm install autocomplete-primer
 This package uses the api from [autocomplete-plus](https://github.com/atom/autocomplete-plus), which is bundled with atom, to display autocomplete results from primer projects.
 
 - Autocomplete [primer-utilities](https://github.com/primer/utilities) with hints and documentation links
-- **Coming soon** Autocomplete octicons
+- Autocomplete octicon helper tags into `.erb` files and `.rb`
 - **Coming soon** Autocomplete component example snippets
 
 ## Development
