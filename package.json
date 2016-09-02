@@ -19,11 +19,12 @@
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-        "2.0.0": "getProvider"
+        "2.0.0": "provide"
       }
     }
   },
   "dependencies": {
+    "octicons": "^4.3.0",
     "primer-support": "*",
     "primer-utilities": "*"
   },

@@ -87,7 +87,7 @@ module.exports = function(grunt) {
               break;
           }
         });
-        fs.writeFileSync("lib/classes/completions/" + filename + ".js", "module.exports = " + JSON.stringify(completions));
+        fs.writeFileSync("lib/css/data/" + filename + ".js", "module.exports = " + JSON.stringify(completions));
       }
     });
 
