@@ -1,0 +1,40 @@
+{
+  "name": "autocomplete-primer",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Autocomplete package for primer css",
+  "keywords": [
+    "github",
+    "primer",
+    "atom",
+    "primer-css",
+    "autocomplete"
+  ],
+  "repository": "https://github.com/primer/autocomplete-primer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "build": "grunt"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {
+    "primer-support": "*",
+    "primer-utilities": "*"
+  },
+  "devDependencies": {
+    "glob": "^7.0.6",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^1.2.1",
+    "node-sass": "^3.8.0",
+    "postcss": "^5.1.2",
+    "postcss-scss": "^0.2.1"
+  }
+}

@@ -1,0 +1,36 @@
+# Autocomplete Primer
+
+[![apm Version](https://img.shields.io/apm/v/autocomplete-primer.svg?maxAge=2592000)]()
+[![apm Downloads](https://img.shields.io/apm/dm/autocomplete-primer.svg?maxAge=2592000)]()
+
+> An atom autocomplete-plus package that autocompletes various primer packages.
+
+![completing](https://cloud.githubusercontent.com/assets/54012/18204509/2f54f07e-70eb-11e6-8eee-b2e8e7e2f9db.gif)
+
+## Install
+
+Install autocomplete-primer using [Atom's package manager](http://flight-manual.atom.io/using-atom/sections/atom-packages/) or simply enter this into your terminal.
+
+```
+$ apm install autocomplete-primer
+```
+
+## Usage & Features
+
+This package uses the api from [autocomplete-plus](https://github.com/atom/autocomplete-plus), which is bundled with atom, to display autocomplete results from primer projects.
+
+- Autocomplete [primer-utilities](https://github.com/primer/utilities) with hints and documentation links
+- **Coming soon** Autocomplete octicons
+- **Coming soon** Autocomplete component example snippets
+
+## Development
+
+This package works by pulling in the primer packages and building them into the necessary data structure for the autocomplete-plus api. To build this, run
+
+```
+npm run build
+```
+
+## License
+
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
