@@ -5,7 +5,7 @@
 
 > An atom autocomplete-plus package that autocompletes various primer packages.
 
-![completing](https://cloud.githubusercontent.com/assets/54012/18204509/2f54f07e-70eb-11e6-8eee-b2e8e7e2f9db.gif)
+![completing](https://cloud.githubusercontent.com/assets/54012/18205369/a41bdba8-70ef-11e6-86ec-89fdcaed1fab.gif)
 
 ## Install
 
