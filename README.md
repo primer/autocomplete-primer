@@ -1,7 +1,7 @@
 # Autocomplete Primer
 
-[![apm Version](https://img.shields.io/apm/v/autocomplete-primer.svg?maxAge=2592000)]()
-[![apm Downloads](https://img.shields.io/apm/dm/autocomplete-primer.svg?maxAge=2592000)]()
+[![apm Version](https://img.shields.io/apm/v/autocomplete-primer.svg?maxAge=2592000)](https://atom.io/packages/autocomplete-primer)
+[![apm Downloads](https://img.shields.io/apm/dm/autocomplete-primer.svg?maxAge=2592000)](https://atom.io/packages/autocomplete-primer)
 
 > An atom autocomplete-plus package that autocompletes various primer packages.
 
