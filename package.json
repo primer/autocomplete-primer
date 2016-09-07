@@ -33,7 +33,7 @@
     "grunt": "^1.0.1",
     "grunt-sass": "^1.2.1",
     "node-sass": "^3.8.0",
-    "postcss": "^5.1.2",
+    "postcss": "^5.2.0",
     "postcss-scss": "^0.2.1"
   },
   "keywords": [
