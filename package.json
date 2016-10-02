@@ -34,7 +34,7 @@
     "grunt-sass": "^1.2.1",
     "node-sass": "^3.8.0",
     "postcss": "^5.1.2",
-    "postcss-scss": "^0.2.1"
+    "postcss-scss": "^0.3.1"
   },
   "keywords": [
     "github",
