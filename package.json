@@ -16,7 +16,7 @@
   "scripts": {
     "build": "grunt",
     "lint": "eslint .",
-    "test": "npm run lint"
+    "test": "npm run lint && npm run build"
   },
   "providedServices": {
     "autocomplete.provider": {
