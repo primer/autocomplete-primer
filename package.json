@@ -14,7 +14,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "scripts": {
-    "build": "grunt"
+    "build": "grunt",
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "providedServices": {
     "autocomplete.provider": {
@@ -24,9 +26,9 @@
     }
   },
   "dependencies": {
-    "octicons": "^4.3.0",
-    "primer-support": "*",
-    "primer-utilities": "*"
+    "octicons": "^5.0.1",
+    "primer-support": "^1.0.0",
+    "primer-utilities": "^2.0.0"
   },
   "devDependencies": {
     "glob": "^7.0.6",
@@ -34,7 +36,9 @@
     "grunt-sass": "^1.2.1",
     "node-sass": "^3.8.0",
     "postcss": "^5.1.2",
-    "postcss-scss": "^0.2.1"
+    "postcss-scss": "^0.2.1",
+    "eslint": "^3.3.1",
+    "eslint-plugin-github": "^0.6.1"
   },
   "keywords": [
     "github",
