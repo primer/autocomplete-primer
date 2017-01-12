@@ -28,7 +28,7 @@
   "dependencies": {
     "octicons": "^5.0.1",
     "primer-support": "^1.0.0",
-    "primer-utilities": "^3.0.0"
+    "primer-utilities": "^3.3.0"
   },
   "devDependencies": {
     "glob": "^7.1.1",
